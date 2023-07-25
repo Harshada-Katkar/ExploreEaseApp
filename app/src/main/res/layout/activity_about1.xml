@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about1">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"
+        app:srcCompat="@drawable/about2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Bhima river is also known as Chandrabhaga as it takes shape like crescent moon near the town.Pandharpur is also known as Pandhari. This village is situated at a distance of about 200 km from Pune. Here is the world-famous Pandharpur Shri Vitthal Temple of Lord Vitthal.The procession is called the Wari and the devotees-the Warkaris ( literally 'those who do the wari'). This 800-year-old tradition is a distinctive part of the Maharashtrian culture and is the ritualistic essence of the Wakari Panth (a sampradaya within the Bhakti tradition).The people participating in this procession wear holy basil beads and sing the glories of Vithoba with songs like “Gyanba Tukaram”. The devotees carrying Palkhis complete the journey in 21 days culminating on the day of Ekadashi (eleventh lunar day) in the Hindu month of Ashadha (June-July)."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFoodBack"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#d4902c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Atithi">
+
+    <TextView
+        android:id="@+id/texthotel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Aatithi"
+        android:textColor="#BD0A5E"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <ImageView
+        android:id="@+id/imageAtithi"
+        android:layout_width="190dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243"
+        app:srcCompat="@drawable/atithi" />
+
+    <TextView
+        android:id="@+id/textAtithi"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="The Chinese and Indian cuisines attract visitors looking for positive impressions. Most guests point out that the staff is nice. Good service is something clients appreciate here. If you've never tried to eat and feel the sense of beauty at the same time, visit this restaurant to find the cozy ambiance. Hotel Atithi is rated on Google 4.2 by its clients.\nFeatures
+\n--Сredit cards accepted\n--Delivery\n--Outdoor seating\n--TakeawayBooking\n--Wheelchair accessible."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+</androidx.constraintlayout.widget.ConstraintLayout>

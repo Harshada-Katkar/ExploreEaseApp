@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Radhesh">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Its different than other hotel in town as u can have good family time and open garden restaurant type feel here. Food quality is good. At the evening time its much crowded place. Some time u have to wait outside for your turn. Satff is good. service is little bit slow may be because of crowed. Overall good hotel to try.\n\nService options: Dine-in · Drive-through · No-contact delivery\nAddress: KBP College Chowk, Pune - Pandharpur Rd, Pandharpur, Maharashtra 413304\nHours:\nTuesday 7:30am–10:30pm\nWednesday	7:3am–10:30pm\nThursday	7:30am–10:30pm\nFriday	7:30am–10:30pm\nSaturday	7:30am–10:30pm\nSunday	7:30am–10:30pm\nMonday	7:30am–10:30pm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Radhesh"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#B80606"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199"
+        app:srcCompat="@drawable/radheshimg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

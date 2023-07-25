@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gajanan">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Shree Gajanan Maharaj Sansthan"
+        android:textColor="#DF3B07"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="In the first branch of Shri Sansthan at Shri Khetra Pandharpur, the beautiful temple of Shri Gajanan Maharaj is built in marble stones in 8.5 acres of land.It is very clean, neat and reasonably priced. It has boarding and lodging facility on first come first basis. The ambience within the complex is very nice.\n-Bhakt Niwas complex with 252 rooms.\nRoom rates are 500 Rs only\nLunch 10.30 am - 1.30 pm \nDinner 7 pm - 10 pm\nBreak fast 5.30 am - 9 am\n(NO ONLINE BOOKING AVAILABLE)\nopens at 6 A.M. and closes at 9 P.M."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        app:srcCompat="@drawable/kaikadi1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
