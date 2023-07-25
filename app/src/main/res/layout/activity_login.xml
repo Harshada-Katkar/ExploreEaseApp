@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:backgroundTint="#F0AD47"
+        android:backgroundTint="#FF5722"
         android:text="Log-In"
         android:textAllCaps="true"
         android:textSize="20dp"
